@@ -23,8 +23,8 @@ def gen_uuid():
 
     return next_id
 
+
 uuid = gen_uuid()
 
 for _ in range(10):
-     print(uuid())
-
+    print(uuid())
